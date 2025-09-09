@@ -22,13 +22,12 @@ this will run:
 
 You will have to run GN5 as well:
 
-NOTE: use java 23
-
-a) check out GN5
+1. use java 23
+2. check out GN5
     `git clone https://github.com/geonetwork/geonetwork.git`
-b) build
+3. build
     `mvn clean install -Drelax`
-c) run
+4. run
     `cd src/apps/geonetwork`
     `mvn spring-boot:run`
 
