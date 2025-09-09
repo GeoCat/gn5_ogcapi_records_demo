@@ -296,6 +296,6 @@ Helpful Info
 
 http://localhost:7979/ogcapi-records<br>
 http://localhost<br>
-http://localhost:58239/gn-records <br>
+http://localhost:9200/gn-records <br>
 [http://localhost:9200/gn-records/_search?pretty=true&q=\*:\*&size=500](http://localhost:9200/gn-records/_search?pretty=true&q=*:*&size=500)<br>
 `docker exec -it gn5_demo-elasticsearch-1 bash`<br>
