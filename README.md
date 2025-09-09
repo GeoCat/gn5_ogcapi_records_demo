@@ -85,6 +85,10 @@ list sortables:
 http://localhost:7979/ogcapi-records/collections/3bef299d-cf82-4033-871b-875f6936b2e2/sortables
 
 
+OpenAPI (swagger) doc:
+http://localhost:7979/v3/api-docs
+
+
 Web App
 -------
 
@@ -290,6 +294,8 @@ curl -XPOST -d '
 Helpful Info
 ============
 
-http://localhost:58239/gn-records
-http://localhost:9200/gn-records/_search?pretty=true&q=*:*
-docker exec -it gn5_demo-elasticsearch-1 bash
+http://localhost:7979/ogcapi-records<br>
+http://localhost<br>
+http://localhost:58239/gn-records <br>
+[http://localhost:9200/gn-records/_search?pretty=true&q=\*:\*&size=500](http://localhost:9200/gn-records/_search?pretty=true&q=*:*&size=500)<br>
+`docker exec -it gn5_demo-elasticsearch-1 bash`<br>
