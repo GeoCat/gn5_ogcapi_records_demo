@@ -1,11 +1,34 @@
 RUN
 ===
 
+To run PostgreSQL (with sample data), Elastic (with sample data), and the "really ugly" OGCAPI-Records web interface:
 ```
 docker-compose up
 ```
 
-this will run:
+You will also also need to run GN5 (in your IDE or with maven).  USE JAVA 23.
+
+```
+git clone https://github.com/geonetwork/geonetwork.git
+
+cd geonetwork
+mvn clean install -Drelax
+
+cd src/apps/geonetwork
+mvn spring-boot:run
+```
+
+For use in Intellij:
+1. checkout GN5 and build (see above)
+2. In Intellij; <br>
+    a. load the GN5 pom  <br>
+    b. create a new spring-boot run/debug configuration <br>
+    c. run the configuration
+
+NOTES
+-----
+
+`docker-compose` will run:
 1. postgresql (with sample data)<br>
     PORT: 5555<br>
     USER: postgres<br>
@@ -20,16 +43,7 @@ this will run:
     assumes GN5 running at http://localhost:7979
 
 
-You will have to run GN5 as well:
-
-1. use java 23
-2. check out GN5 <br>
-    `git clone https://github.com/geonetwork/geonetwork.git`
-3. build<br>
-    `mvn clean install -Drelax`
-4. run<br>
-    `cd src/apps/geonetwork`<br>
-    `mvn spring-boot:run`
+ 
 
 Helpful URLs
 ============
