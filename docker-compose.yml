@@ -42,15 +42,17 @@ services:
   postgres:
     image: postgres:16-alpine
     ports:
-      - "5555:5432"
+      - "5432:5432"
     environment:
-        POSTGRES_PASSWORD: postgres
-        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: geonetwork
+        POSTGRES_USER: geonetwork
         POSTGRES_DB: geonetwork
     volumes:
       - ./dump.gn.sql:/docker-entrypoint-initdb.d/dump.gn.sql
 
   web:
     image: dblasby2/ogcapi-records-web:latest
+    environment:
+      GEONETWORK_URL: http://localhost:7979/geonetwork
     ports:
       - "80:80"

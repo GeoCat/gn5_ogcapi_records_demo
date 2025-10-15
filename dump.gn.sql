@@ -34,7 +34,7 @@ CREATE TABLE public.address (
 );
 
 
-ALTER TABLE public.address OWNER TO postgres;
+ALTER TABLE public.address OWNER TO geonetwork;
 
 --
 -- Name: address_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -48,7 +48,7 @@ CREATE SEQUENCE public.address_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.address_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.address_id_seq OWNER TO geonetwork;
 
 --
 -- Name: batch_job_execution; Type: TABLE; Schema: public; Owner: postgres
@@ -68,7 +68,7 @@ CREATE TABLE public.batch_job_execution (
 );
 
 
-ALTER TABLE public.batch_job_execution OWNER TO postgres;
+ALTER TABLE public.batch_job_execution OWNER TO geonetwork;
 
 --
 -- Name: batch_job_execution_context; Type: TABLE; Schema: public; Owner: postgres
@@ -81,7 +81,7 @@ CREATE TABLE public.batch_job_execution_context (
 );
 
 
-ALTER TABLE public.batch_job_execution_context OWNER TO postgres;
+ALTER TABLE public.batch_job_execution_context OWNER TO geonetwork;
 
 --
 -- Name: batch_job_execution_params; Type: TABLE; Schema: public; Owner: postgres
@@ -96,7 +96,7 @@ CREATE TABLE public.batch_job_execution_params (
 );
 
 
-ALTER TABLE public.batch_job_execution_params OWNER TO postgres;
+ALTER TABLE public.batch_job_execution_params OWNER TO geonetwork;
 
 --
 -- Name: batch_job_execution_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -110,7 +110,7 @@ CREATE SEQUENCE public.batch_job_execution_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.batch_job_execution_seq OWNER TO postgres;
+ALTER SEQUENCE public.batch_job_execution_seq OWNER TO geonetwork;
 
 --
 -- Name: batch_job_instance; Type: TABLE; Schema: public; Owner: postgres
@@ -124,7 +124,7 @@ CREATE TABLE public.batch_job_instance (
 );
 
 
-ALTER TABLE public.batch_job_instance OWNER TO postgres;
+ALTER TABLE public.batch_job_instance OWNER TO geonetwork;
 
 --
 -- Name: batch_job_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -138,7 +138,7 @@ CREATE SEQUENCE public.batch_job_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.batch_job_seq OWNER TO postgres;
+ALTER SEQUENCE public.batch_job_seq OWNER TO geonetwork;
 
 --
 -- Name: batch_step_execution; Type: TABLE; Schema: public; Owner: postgres
@@ -167,7 +167,7 @@ CREATE TABLE public.batch_step_execution (
 );
 
 
-ALTER TABLE public.batch_step_execution OWNER TO postgres;
+ALTER TABLE public.batch_step_execution OWNER TO geonetwork;
 
 --
 -- Name: batch_step_execution_context; Type: TABLE; Schema: public; Owner: postgres
@@ -180,7 +180,7 @@ CREATE TABLE public.batch_step_execution_context (
 );
 
 
-ALTER TABLE public.batch_step_execution_context OWNER TO postgres;
+ALTER TABLE public.batch_step_execution_context OWNER TO geonetwork;
 
 --
 -- Name: batch_step_execution_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -194,7 +194,7 @@ CREATE SEQUENCE public.batch_step_execution_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.batch_step_execution_seq OWNER TO postgres;
+ALTER SEQUENCE public.batch_step_execution_seq OWNER TO geonetwork;
 
 --
 -- Name: categories; Type: TABLE; Schema: public; Owner: postgres
@@ -206,7 +206,7 @@ CREATE TABLE public.categories (
 );
 
 
-ALTER TABLE public.categories OWNER TO postgres;
+ALTER TABLE public.categories OWNER TO geonetwork;
 
 --
 -- Name: categoriesdes; Type: TABLE; Schema: public; Owner: postgres
@@ -219,7 +219,7 @@ CREATE TABLE public.categoriesdes (
 );
 
 
-ALTER TABLE public.categoriesdes OWNER TO postgres;
+ALTER TABLE public.categoriesdes OWNER TO geonetwork;
 
 --
 -- Name: csw_server_capabilities_info_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -233,7 +233,7 @@ CREATE SEQUENCE public.csw_server_capabilities_info_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.csw_server_capabilities_info_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.csw_server_capabilities_info_id_seq OWNER TO geonetwork;
 
 --
 -- Name: customelementset; Type: TABLE; Schema: public; Owner: postgres
@@ -245,7 +245,7 @@ CREATE TABLE public.customelementset (
 );
 
 
-ALTER TABLE public.customelementset OWNER TO postgres;
+ALTER TABLE public.customelementset OWNER TO geonetwork;
 
 --
 -- Name: doiserver_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -259,7 +259,7 @@ CREATE SEQUENCE public.doiserver_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.doiserver_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.doiserver_id_seq OWNER TO geonetwork;
 
 --
 -- Name: doiservers; Type: TABLE; Schema: public; Owner: postgres
@@ -279,7 +279,7 @@ CREATE TABLE public.doiservers (
 );
 
 
-ALTER TABLE public.doiservers OWNER TO postgres;
+ALTER TABLE public.doiservers OWNER TO geonetwork;
 
 --
 -- Name: doiservers_group; Type: TABLE; Schema: public; Owner: postgres
@@ -291,7 +291,7 @@ CREATE TABLE public.doiservers_group (
 );
 
 
-ALTER TABLE public.doiservers_group OWNER TO postgres;
+ALTER TABLE public.doiservers_group OWNER TO geonetwork;
 
 --
 -- Name: email; Type: TABLE; Schema: public; Owner: postgres
@@ -303,7 +303,7 @@ CREATE TABLE public.email (
 );
 
 
-ALTER TABLE public.email OWNER TO postgres;
+ALTER TABLE public.email OWNER TO geonetwork;
 
 --
 -- Name: files; Type: TABLE; Schema: public; Owner: postgres
@@ -316,7 +316,7 @@ CREATE TABLE public.files (
 );
 
 
-ALTER TABLE public.files OWNER TO postgres;
+ALTER TABLE public.files OWNER TO geonetwork;
 
 --
 -- Name: files_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -330,7 +330,7 @@ CREATE SEQUENCE public.files_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.files_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.files_id_seq OWNER TO geonetwork;
 
 --
 -- Name: group_category; Type: TABLE; Schema: public; Owner: postgres
@@ -342,7 +342,7 @@ CREATE TABLE public.group_category (
 );
 
 
-ALTER TABLE public.group_category OWNER TO postgres;
+ALTER TABLE public.group_category OWNER TO geonetwork;
 
 --
 -- Name: group_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -356,7 +356,7 @@ CREATE SEQUENCE public.group_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.group_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.group_id_seq OWNER TO geonetwork;
 
 --
 -- Name: groups; Type: TABLE; Schema: public; Owner: postgres
@@ -376,7 +376,7 @@ CREATE TABLE public.groups (
 );
 
 
-ALTER TABLE public.groups OWNER TO postgres;
+ALTER TABLE public.groups OWNER TO geonetwork;
 
 --
 -- Name: groupsdes; Type: TABLE; Schema: public; Owner: postgres
@@ -389,7 +389,7 @@ CREATE TABLE public.groupsdes (
 );
 
 
-ALTER TABLE public.groupsdes OWNER TO postgres;
+ALTER TABLE public.groupsdes OWNER TO geonetwork;
 
 --
 -- Name: guf_keywords; Type: TABLE; Schema: public; Owner: postgres
@@ -401,7 +401,7 @@ CREATE TABLE public.guf_keywords (
 );
 
 
-ALTER TABLE public.guf_keywords OWNER TO postgres;
+ALTER TABLE public.guf_keywords OWNER TO geonetwork;
 
 --
 -- Name: guf_rating; Type: TABLE; Schema: public; Owner: postgres
@@ -415,7 +415,7 @@ CREATE TABLE public.guf_rating (
 );
 
 
-ALTER TABLE public.guf_rating OWNER TO postgres;
+ALTER TABLE public.guf_rating OWNER TO geonetwork;
 
 --
 -- Name: guf_ratingcriteria; Type: TABLE; Schema: public; Owner: postgres
@@ -428,7 +428,7 @@ CREATE TABLE public.guf_ratingcriteria (
 );
 
 
-ALTER TABLE public.guf_ratingcriteria OWNER TO postgres;
+ALTER TABLE public.guf_ratingcriteria OWNER TO geonetwork;
 
 --
 -- Name: guf_ratingcriteriades; Type: TABLE; Schema: public; Owner: postgres
@@ -441,7 +441,7 @@ CREATE TABLE public.guf_ratingcriteriades (
 );
 
 
-ALTER TABLE public.guf_ratingcriteriades OWNER TO postgres;
+ALTER TABLE public.guf_ratingcriteriades OWNER TO geonetwork;
 
 --
 -- Name: guf_userfeedback_keyword; Type: TABLE; Schema: public; Owner: postgres
@@ -453,7 +453,7 @@ CREATE TABLE public.guf_userfeedback_keyword (
 );
 
 
-ALTER TABLE public.guf_userfeedback_keyword OWNER TO postgres;
+ALTER TABLE public.guf_userfeedback_keyword OWNER TO geonetwork;
 
 --
 -- Name: guf_userfeedbacks; Type: TABLE; Schema: public; Owner: postgres
@@ -475,7 +475,7 @@ CREATE TABLE public.guf_userfeedbacks (
 );
 
 
-ALTER TABLE public.guf_userfeedbacks OWNER TO postgres;
+ALTER TABLE public.guf_userfeedbacks OWNER TO geonetwork;
 
 --
 -- Name: guf_userfeedbacks_guf_rating; Type: TABLE; Schema: public; Owner: postgres
@@ -487,7 +487,7 @@ CREATE TABLE public.guf_userfeedbacks_guf_rating (
 );
 
 
-ALTER TABLE public.guf_userfeedbacks_guf_rating OWNER TO postgres;
+ALTER TABLE public.guf_userfeedbacks_guf_rating OWNER TO geonetwork;
 
 --
 -- Name: gufkey_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -501,7 +501,7 @@ CREATE SEQUENCE public.gufkey_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.gufkey_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.gufkey_id_seq OWNER TO geonetwork;
 
 --
 -- Name: gufrat_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -515,7 +515,7 @@ CREATE SEQUENCE public.gufrat_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.gufrat_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.gufrat_id_seq OWNER TO geonetwork;
 
 --
 -- Name: harvest_history_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -529,7 +529,7 @@ CREATE SEQUENCE public.harvest_history_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.harvest_history_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.harvest_history_id_seq OWNER TO geonetwork;
 
 --
 -- Name: harvester_setting_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -543,7 +543,7 @@ CREATE SEQUENCE public.harvester_setting_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.harvester_setting_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.harvester_setting_id_seq OWNER TO geonetwork;
 
 --
 -- Name: harvesterdata; Type: TABLE; Schema: public; Owner: postgres
@@ -556,7 +556,7 @@ CREATE TABLE public.harvesterdata (
 );
 
 
-ALTER TABLE public.harvesterdata OWNER TO postgres;
+ALTER TABLE public.harvesterdata OWNER TO geonetwork;
 
 --
 -- Name: harvestersettings; Type: TABLE; Schema: public; Owner: postgres
@@ -571,7 +571,7 @@ CREATE TABLE public.harvestersettings (
 );
 
 
-ALTER TABLE public.harvestersettings OWNER TO postgres;
+ALTER TABLE public.harvestersettings OWNER TO geonetwork;
 
 --
 -- Name: harvesthistory; Type: TABLE; Schema: public; Owner: postgres
@@ -590,7 +590,7 @@ CREATE TABLE public.harvesthistory (
 );
 
 
-ALTER TABLE public.harvesthistory OWNER TO postgres;
+ALTER TABLE public.harvesthistory OWNER TO geonetwork;
 
 --
 -- Name: hibernate_sequence; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -604,7 +604,7 @@ CREATE SEQUENCE public.hibernate_sequence
     CACHE 1;
 
 
-ALTER SEQUENCE public.hibernate_sequence OWNER TO postgres;
+ALTER SEQUENCE public.hibernate_sequence OWNER TO geonetwork;
 
 --
 -- Name: inspire_atom_feed_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -618,7 +618,7 @@ CREATE SEQUENCE public.inspire_atom_feed_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.inspire_atom_feed_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.inspire_atom_feed_id_seq OWNER TO geonetwork;
 
 --
 -- Name: inspireatomfeed; Type: TABLE; Schema: public; Owner: postgres
@@ -640,7 +640,7 @@ CREATE TABLE public.inspireatomfeed (
 );
 
 
-ALTER TABLE public.inspireatomfeed OWNER TO postgres;
+ALTER TABLE public.inspireatomfeed OWNER TO geonetwork;
 
 --
 -- Name: inspireatomfeed_entrylist; Type: TABLE; Schema: public; Owner: postgres
@@ -657,7 +657,7 @@ CREATE TABLE public.inspireatomfeed_entrylist (
 );
 
 
-ALTER TABLE public.inspireatomfeed_entrylist OWNER TO postgres;
+ALTER TABLE public.inspireatomfeed_entrylist OWNER TO geonetwork;
 
 --
 -- Name: iso_language_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -671,7 +671,7 @@ CREATE SEQUENCE public.iso_language_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.iso_language_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.iso_language_id_seq OWNER TO geonetwork;
 
 --
 -- Name: isolanguages; Type: TABLE; Schema: public; Owner: postgres
@@ -684,7 +684,7 @@ CREATE TABLE public.isolanguages (
 );
 
 
-ALTER TABLE public.isolanguages OWNER TO postgres;
+ALTER TABLE public.isolanguages OWNER TO geonetwork;
 
 --
 -- Name: isolanguagesdes; Type: TABLE; Schema: public; Owner: postgres
@@ -697,7 +697,7 @@ CREATE TABLE public.isolanguagesdes (
 );
 
 
-ALTER TABLE public.isolanguagesdes OWNER TO postgres;
+ALTER TABLE public.isolanguagesdes OWNER TO geonetwork;
 
 --
 -- Name: languages; Type: TABLE; Schema: public; Owner: postgres
@@ -710,7 +710,7 @@ CREATE TABLE public.languages (
 );
 
 
-ALTER TABLE public.languages OWNER TO postgres;
+ALTER TABLE public.languages OWNER TO geonetwork;
 
 --
 -- Name: link_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -724,7 +724,7 @@ CREATE SEQUENCE public.link_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.link_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.link_id_seq OWNER TO geonetwork;
 
 --
 -- Name: links; Type: TABLE; Schema: public; Owner: postgres
@@ -740,7 +740,7 @@ CREATE TABLE public.links (
 );
 
 
-ALTER TABLE public.links OWNER TO postgres;
+ALTER TABLE public.links OWNER TO geonetwork;
 
 --
 -- Name: linkstatus; Type: TABLE; Schema: public; Owner: postgres
@@ -757,7 +757,7 @@ CREATE TABLE public.linkstatus (
 );
 
 
-ALTER TABLE public.linkstatus OWNER TO postgres;
+ALTER TABLE public.linkstatus OWNER TO geonetwork;
 
 --
 -- Name: linkstatus_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -771,7 +771,7 @@ CREATE SEQUENCE public.linkstatus_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.linkstatus_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.linkstatus_id_seq OWNER TO geonetwork;
 
 --
 -- Name: mapserver_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -785,7 +785,7 @@ CREATE SEQUENCE public.mapserver_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.mapserver_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.mapserver_id_seq OWNER TO geonetwork;
 
 --
 -- Name: mapservers; Type: TABLE; Schema: public; Owner: postgres
@@ -808,7 +808,7 @@ CREATE TABLE public.mapservers (
 );
 
 
-ALTER TABLE public.mapservers OWNER TO postgres;
+ALTER TABLE public.mapservers OWNER TO geonetwork;
 
 --
 -- Name: message_producer_entity_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -822,7 +822,7 @@ CREATE SEQUENCE public.message_producer_entity_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.message_producer_entity_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.message_producer_entity_id_seq OWNER TO geonetwork;
 
 --
 -- Name: messageproducerentity; Type: TABLE; Schema: public; Owner: postgres
@@ -838,7 +838,7 @@ CREATE TABLE public.messageproducerentity (
 );
 
 
-ALTER TABLE public.messageproducerentity OWNER TO postgres;
+ALTER TABLE public.messageproducerentity OWNER TO geonetwork;
 
 --
 -- Name: metadata; Type: TABLE; Schema: public; Owner: postgres
@@ -868,7 +868,7 @@ CREATE TABLE public.metadata (
 );
 
 
-ALTER TABLE public.metadata OWNER TO postgres;
+ALTER TABLE public.metadata OWNER TO geonetwork;
 
 --
 -- Name: metadata_category_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -882,7 +882,7 @@ CREATE SEQUENCE public.metadata_category_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadata_category_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadata_category_id_seq OWNER TO geonetwork;
 
 --
 -- Name: metadata_filedownload_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -896,7 +896,7 @@ CREATE SEQUENCE public.metadata_filedownload_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadata_filedownload_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadata_filedownload_id_seq OWNER TO geonetwork;
 
 --
 -- Name: metadata_fileupload_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -910,7 +910,7 @@ CREATE SEQUENCE public.metadata_fileupload_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadata_fileupload_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadata_fileupload_id_seq OWNER TO geonetwork;
 
 --
 -- Name: metadata_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -924,7 +924,7 @@ CREATE SEQUENCE public.metadata_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadata_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadata_id_seq OWNER TO geonetwork;
 
 --
 -- Name: metadata_identifier_template_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -938,7 +938,7 @@ CREATE SEQUENCE public.metadata_identifier_template_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadata_identifier_template_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadata_identifier_template_id_seq OWNER TO geonetwork;
 
 --
 -- Name: metadatacateg; Type: TABLE; Schema: public; Owner: postgres
@@ -950,7 +950,7 @@ CREATE TABLE public.metadatacateg (
 );
 
 
-ALTER TABLE public.metadatacateg OWNER TO postgres;
+ALTER TABLE public.metadatacateg OWNER TO geonetwork;
 
 --
 -- Name: metadatadraft; Type: TABLE; Schema: public; Owner: postgres
@@ -981,7 +981,7 @@ CREATE TABLE public.metadatadraft (
 );
 
 
-ALTER TABLE public.metadatadraft OWNER TO postgres;
+ALTER TABLE public.metadatadraft OWNER TO geonetwork;
 
 --
 -- Name: metadatafiledownloads; Type: TABLE; Schema: public; Owner: postgres
@@ -1001,7 +1001,7 @@ CREATE TABLE public.metadatafiledownloads (
 );
 
 
-ALTER TABLE public.metadatafiledownloads OWNER TO postgres;
+ALTER TABLE public.metadatafiledownloads OWNER TO geonetwork;
 
 --
 -- Name: metadatafileuploads; Type: TABLE; Schema: public; Owner: postgres
@@ -1018,7 +1018,7 @@ CREATE TABLE public.metadatafileuploads (
 );
 
 
-ALTER TABLE public.metadatafileuploads OWNER TO postgres;
+ALTER TABLE public.metadatafileuploads OWNER TO geonetwork;
 
 --
 -- Name: metadataidentifiertemplate; Type: TABLE; Schema: public; Owner: postgres
@@ -1032,7 +1032,7 @@ CREATE TABLE public.metadataidentifiertemplate (
 );
 
 
-ALTER TABLE public.metadataidentifiertemplate OWNER TO postgres;
+ALTER TABLE public.metadataidentifiertemplate OWNER TO geonetwork;
 
 --
 -- Name: metadatalink; Type: TABLE; Schema: public; Owner: postgres
@@ -1045,7 +1045,7 @@ CREATE TABLE public.metadatalink (
 );
 
 
-ALTER TABLE public.metadatalink OWNER TO postgres;
+ALTER TABLE public.metadatalink OWNER TO geonetwork;
 
 --
 -- Name: metadatarating; Type: TABLE; Schema: public; Owner: postgres
@@ -1058,7 +1058,7 @@ CREATE TABLE public.metadatarating (
 );
 
 
-ALTER TABLE public.metadatarating OWNER TO postgres;
+ALTER TABLE public.metadatarating OWNER TO geonetwork;
 
 --
 -- Name: metadatastatus; Type: TABLE; Schema: public; Owner: postgres
@@ -1082,7 +1082,7 @@ CREATE TABLE public.metadatastatus (
 );
 
 
-ALTER TABLE public.metadatastatus OWNER TO postgres;
+ALTER TABLE public.metadatastatus OWNER TO geonetwork;
 
 --
 -- Name: metadatastatus_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1096,7 +1096,7 @@ CREATE SEQUENCE public.metadatastatus_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.metadatastatus_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.metadatastatus_id_seq OWNER TO geonetwork;
 
 --
 -- Name: operation_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1110,7 +1110,7 @@ CREATE SEQUENCE public.operation_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.operation_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.operation_id_seq OWNER TO geonetwork;
 
 --
 -- Name: operationallowed; Type: TABLE; Schema: public; Owner: postgres
@@ -1123,7 +1123,7 @@ CREATE TABLE public.operationallowed (
 );
 
 
-ALTER TABLE public.operationallowed OWNER TO postgres;
+ALTER TABLE public.operationallowed OWNER TO geonetwork;
 
 --
 -- Name: operations; Type: TABLE; Schema: public; Owner: postgres
@@ -1135,7 +1135,7 @@ CREATE TABLE public.operations (
 );
 
 
-ALTER TABLE public.operations OWNER TO postgres;
+ALTER TABLE public.operations OWNER TO geonetwork;
 
 --
 -- Name: operationsdes; Type: TABLE; Schema: public; Owner: postgres
@@ -1148,7 +1148,7 @@ CREATE TABLE public.operationsdes (
 );
 
 
-ALTER TABLE public.operationsdes OWNER TO postgres;
+ALTER TABLE public.operationsdes OWNER TO geonetwork;
 
 --
 -- Name: rating_criteria_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1162,7 +1162,7 @@ CREATE SEQUENCE public.rating_criteria_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.rating_criteria_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.rating_criteria_id_seq OWNER TO geonetwork;
 
 --
 -- Name: relations; Type: TABLE; Schema: public; Owner: postgres
@@ -1174,7 +1174,7 @@ CREATE TABLE public.relations (
 );
 
 
-ALTER TABLE public.relations OWNER TO postgres;
+ALTER TABLE public.relations OWNER TO geonetwork;
 
 --
 -- Name: revinfo; Type: TABLE; Schema: public; Owner: postgres
@@ -1186,7 +1186,7 @@ CREATE TABLE public.revinfo (
 );
 
 
-ALTER TABLE public.revinfo OWNER TO postgres;
+ALTER TABLE public.revinfo OWNER TO geonetwork;
 
 --
 -- Name: schematron; Type: TABLE; Schema: public; Owner: postgres
@@ -1200,7 +1200,7 @@ CREATE TABLE public.schematron (
 );
 
 
-ALTER TABLE public.schematron OWNER TO postgres;
+ALTER TABLE public.schematron OWNER TO geonetwork;
 
 --
 -- Name: schematron_criteria_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1214,7 +1214,7 @@ CREATE SEQUENCE public.schematron_criteria_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.schematron_criteria_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.schematron_criteria_id_seq OWNER TO geonetwork;
 
 --
 -- Name: schematron_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1228,7 +1228,7 @@ CREATE SEQUENCE public.schematron_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.schematron_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.schematron_id_seq OWNER TO geonetwork;
 
 --
 -- Name: schematroncriteria; Type: TABLE; Schema: public; Owner: postgres
@@ -1245,7 +1245,7 @@ CREATE TABLE public.schematroncriteria (
 );
 
 
-ALTER TABLE public.schematroncriteria OWNER TO postgres;
+ALTER TABLE public.schematroncriteria OWNER TO geonetwork;
 
 --
 -- Name: schematroncriteriagroup; Type: TABLE; Schema: public; Owner: postgres
@@ -1258,7 +1258,7 @@ CREATE TABLE public.schematroncriteriagroup (
 );
 
 
-ALTER TABLE public.schematroncriteriagroup OWNER TO postgres;
+ALTER TABLE public.schematroncriteriagroup OWNER TO geonetwork;
 
 --
 -- Name: schematrondes; Type: TABLE; Schema: public; Owner: postgres
@@ -1271,7 +1271,7 @@ CREATE TABLE public.schematrondes (
 );
 
 
-ALTER TABLE public.schematrondes OWNER TO postgres;
+ALTER TABLE public.schematrondes OWNER TO geonetwork;
 
 --
 -- Name: selection_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1285,7 +1285,7 @@ CREATE SEQUENCE public.selection_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.selection_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.selection_id_seq OWNER TO geonetwork;
 
 --
 -- Name: selections; Type: TABLE; Schema: public; Owner: postgres
@@ -1298,7 +1298,7 @@ CREATE TABLE public.selections (
 );
 
 
-ALTER TABLE public.selections OWNER TO postgres;
+ALTER TABLE public.selections OWNER TO geonetwork;
 
 --
 -- Name: selectionsdes; Type: TABLE; Schema: public; Owner: postgres
@@ -1311,7 +1311,7 @@ CREATE TABLE public.selectionsdes (
 );
 
 
-ALTER TABLE public.selectionsdes OWNER TO postgres;
+ALTER TABLE public.selectionsdes OWNER TO geonetwork;
 
 --
 -- Name: settings; Type: TABLE; Schema: public; Owner: postgres
@@ -1328,7 +1328,7 @@ CREATE TABLE public.settings (
 );
 
 
-ALTER TABLE public.settings OWNER TO postgres;
+ALTER TABLE public.settings OWNER TO geonetwork;
 
 --
 -- Name: settings_cssstyle; Type: TABLE; Schema: public; Owner: postgres
@@ -1340,7 +1340,7 @@ CREATE TABLE public.settings_cssstyle (
 );
 
 
-ALTER TABLE public.settings_cssstyle OWNER TO postgres;
+ALTER TABLE public.settings_cssstyle OWNER TO geonetwork;
 
 --
 -- Name: settings_ui; Type: TABLE; Schema: public; Owner: postgres
@@ -1352,7 +1352,7 @@ CREATE TABLE public.settings_ui (
 );
 
 
-ALTER TABLE public.settings_ui OWNER TO postgres;
+ALTER TABLE public.settings_ui OWNER TO geonetwork;
 
 --
 -- Name: sources; Type: TABLE; Schema: public; Owner: postgres
@@ -1374,7 +1374,7 @@ CREATE TABLE public.sources (
 );
 
 
-ALTER TABLE public.sources OWNER TO postgres;
+ALTER TABLE public.sources OWNER TO geonetwork;
 
 --
 -- Name: sourcesdes; Type: TABLE; Schema: public; Owner: postgres
@@ -1387,7 +1387,7 @@ CREATE TABLE public.sourcesdes (
 );
 
 
-ALTER TABLE public.sourcesdes OWNER TO postgres;
+ALTER TABLE public.sourcesdes OWNER TO geonetwork;
 
 --
 -- Name: spg_page; Type: TABLE; Schema: public; Owner: postgres
@@ -1405,7 +1405,7 @@ CREATE TABLE public.spg_page (
 );
 
 
-ALTER TABLE public.spg_page OWNER TO postgres;
+ALTER TABLE public.spg_page OWNER TO geonetwork;
 
 --
 -- Name: spg_page_group; Type: TABLE; Schema: public; Owner: postgres
@@ -1418,7 +1418,7 @@ CREATE TABLE public.spg_page_group (
 );
 
 
-ALTER TABLE public.spg_page_group OWNER TO postgres;
+ALTER TABLE public.spg_page_group OWNER TO geonetwork;
 
 --
 -- Name: spg_sections; Type: TABLE; Schema: public; Owner: postgres
@@ -1431,7 +1431,7 @@ CREATE TABLE public.spg_sections (
 );
 
 
-ALTER TABLE public.spg_sections OWNER TO postgres;
+ALTER TABLE public.spg_sections OWNER TO geonetwork;
 
 --
 -- Name: status_value_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1445,7 +1445,7 @@ CREATE SEQUENCE public.status_value_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.status_value_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.status_value_id_seq OWNER TO geonetwork;
 
 --
 -- Name: statusvalues; Type: TABLE; Schema: public; Owner: postgres
@@ -1461,7 +1461,7 @@ CREATE TABLE public.statusvalues (
 );
 
 
-ALTER TABLE public.statusvalues OWNER TO postgres;
+ALTER TABLE public.statusvalues OWNER TO geonetwork;
 
 --
 -- Name: statusvaluesdes; Type: TABLE; Schema: public; Owner: postgres
@@ -1474,7 +1474,7 @@ CREATE TABLE public.statusvaluesdes (
 );
 
 
-ALTER TABLE public.statusvaluesdes OWNER TO postgres;
+ALTER TABLE public.statusvaluesdes OWNER TO geonetwork;
 
 --
 -- Name: translations; Type: TABLE; Schema: public; Owner: postgres
@@ -1488,7 +1488,7 @@ CREATE TABLE public.translations (
 );
 
 
-ALTER TABLE public.translations OWNER TO postgres;
+ALTER TABLE public.translations OWNER TO geonetwork;
 
 --
 -- Name: user_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1502,7 +1502,7 @@ CREATE SEQUENCE public.user_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.user_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.user_id_seq OWNER TO geonetwork;
 
 --
 -- Name: user_search_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -1516,7 +1516,7 @@ CREATE SEQUENCE public.user_search_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.user_search_id_seq OWNER TO postgres;
+ALTER SEQUENCE public.user_search_id_seq OWNER TO geonetwork;
 
 --
 -- Name: useraddress; Type: TABLE; Schema: public; Owner: postgres
@@ -1528,7 +1528,7 @@ CREATE TABLE public.useraddress (
 );
 
 
-ALTER TABLE public.useraddress OWNER TO postgres;
+ALTER TABLE public.useraddress OWNER TO geonetwork;
 
 --
 -- Name: userauditable; Type: TABLE; Schema: public; Owner: postgres
@@ -1560,7 +1560,7 @@ CREATE TABLE public.userauditable (
 );
 
 
-ALTER TABLE public.userauditable OWNER TO postgres;
+ALTER TABLE public.userauditable OWNER TO geonetwork;
 
 --
 -- Name: userauditable_aud; Type: TABLE; Schema: public; Owner: postgres
@@ -1611,7 +1611,7 @@ CREATE TABLE public.userauditable_aud (
 );
 
 
-ALTER TABLE public.userauditable_aud OWNER TO postgres;
+ALTER TABLE public.userauditable_aud OWNER TO geonetwork;
 
 --
 -- Name: usergroups; Type: TABLE; Schema: public; Owner: postgres
@@ -1624,7 +1624,7 @@ CREATE TABLE public.usergroups (
 );
 
 
-ALTER TABLE public.usergroups OWNER TO postgres;
+ALTER TABLE public.usergroups OWNER TO geonetwork;
 
 --
 -- Name: users; Type: TABLE; Schema: public; Owner: postgres
@@ -1647,7 +1647,7 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO postgres;
+ALTER TABLE public.users OWNER TO geonetwork;
 
 --
 -- Name: usersavedselections; Type: TABLE; Schema: public; Owner: postgres
@@ -1660,7 +1660,7 @@ CREATE TABLE public.usersavedselections (
 );
 
 
-ALTER TABLE public.usersavedselections OWNER TO postgres;
+ALTER TABLE public.usersavedselections OWNER TO geonetwork;
 
 --
 -- Name: usersearch; Type: TABLE; Schema: public; Owner: postgres
@@ -1676,7 +1676,7 @@ CREATE TABLE public.usersearch (
 );
 
 
-ALTER TABLE public.usersearch OWNER TO postgres;
+ALTER TABLE public.usersearch OWNER TO geonetwork;
 
 --
 -- Name: usersearch_group; Type: TABLE; Schema: public; Owner: postgres
@@ -1688,7 +1688,7 @@ CREATE TABLE public.usersearch_group (
 );
 
 
-ALTER TABLE public.usersearch_group OWNER TO postgres;
+ALTER TABLE public.usersearch_group OWNER TO geonetwork;
 
 --
 -- Name: usersearchdes; Type: TABLE; Schema: public; Owner: postgres
@@ -1701,7 +1701,7 @@ CREATE TABLE public.usersearchdes (
 );
 
 
-ALTER TABLE public.usersearchdes OWNER TO postgres;
+ALTER TABLE public.usersearchdes OWNER TO geonetwork;
 
 --
 -- Name: validation; Type: TABLE; Schema: public; Owner: postgres
@@ -1720,7 +1720,7 @@ CREATE TABLE public.validation (
 );
 
 
-ALTER TABLE public.validation OWNER TO postgres;
+ALTER TABLE public.validation OWNER TO geonetwork;
 
 --
 -- Data for Name: address; Type: TABLE DATA; Schema: public; Owner: postgres

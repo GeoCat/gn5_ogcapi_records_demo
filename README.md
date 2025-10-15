@@ -2,11 +2,14 @@ RUN
 ===
 
 To run PostgreSQL (with sample data), Elastic (with sample data), and the "really ugly" OGCAPI-Records web interface:
+
 ```
+https://github.com/GeoCat/gn5_ogcapi_records_demo.git
+cd gn5_ogcapi_records_demo
 docker-compose up
 ```
 
-You will also also need to run GN5 (in your IDE or with maven).  USE JAVA 23.
+You will also also need to run GN5 (in your IDE or with maven).  USE JAVA 21.
 
 ```
 git clone https://github.com/geonetwork/geonetwork.git
@@ -43,6 +46,11 @@ NOTES
     assumes GN5 running at http://localhost:7979
 
 
+To delete any changes to PostgreSQL and Elastic, erase their volumes:
+
+```
+ docker-compose down --volume
+```
  
 
 Helpful URLs
