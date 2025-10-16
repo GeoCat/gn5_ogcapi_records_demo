@@ -94,7 +94,7 @@ http://localhost:7979/geonetwork/ogcapi-records/collections/3bef299d-cf82-4033-8
 
 
 OpenAPI (swagger) doc:
-http://localhost:7979/v3/api-docs
+http://localhost:7979/geonetwork/v3/api-docs
 
 
 Web App
